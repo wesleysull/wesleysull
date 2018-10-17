@@ -105,7 +105,7 @@ Navigation bar
 Banner
 ************************************/
 .banner{
-	background: url('../img/improve_credit_header.jpg') no-repeat center top;
+	background: url('../img/banner.jpg') no-repeat center top;
     background-size: contain;
 	min-height: 580px;
     position: relative;
