@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Octagon Financial Services</title>
+    <meta name="description" content="Credit services targeted to youth.">
+    <meta name="keywords" content="credit youth parents budget financial freedom">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+<!--Navigation bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Octagon</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#courses">Courses</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--/ Navigation bar-->
+<br />
+<br />
+<!--Courses-->
+<section id="course" class="section-padding">
+    <div class="container">
+        <h2 id="pageHeader" >Page 1</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>This course goes over the basics of how credit works.</p>
+                <p id="courseParagraph">Behind the scenes, the credit card represents a type of financial account.
+                    By using credit cards, customers can offers a bank’s money instead of their own to pay for a product or service today, and over time, they repay the bank.
+                    For the benefit of using someone else’s money, customers will often need to pay interest, as expected with other types of loans. This is where problems can arise.
+                    Using other people’s money is often preferable than using your own because it lets you keep your own money available for other purposes, but if you buy something with someone else’s
+                    money while not being able to repay that type of loan, the results can destroy your own financial future.</p>
+            </div>
+            <div class="col-md-6">
+                <img id="courseImage" width="560" height="345" src="img/credit_cards_01.png">
+                </img>
+                <div class="col-md-6">
+                    <p>
+                        <button id="nextLecture" name="submit" type="submit" class="btn btn-block btn-submit" onclick="onClick()">
+                            Next <i class="fa fa-arrow-right"></i></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Courses-->
+<!--Contact-->
+<section id="CTA" class="section-padding" style="display:none">
+    <div class="container">
+        <div class="row">
+            <div class="header-section text-center">
+                <h2>Interested?</h2>
+                <p>Sign me up for email updates when available.</p>
+                <hr class="bottom-line">
+            </div>
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+                <div class="col-md-6 col-sm-6 col-xs-12 left">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 right">
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Suggestions"></textarea>
+                        <div class="validation"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <!-- Button -->
+                    <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SUBMIT</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</section>
+<!--/ Contact-->
+
+<!--Footer-->
+<footer id="footer" class="footer">
+    <div class="container text-center">
+
+        <h3>Sign up to the Newsletter!</h3>
+
+        <form class="mc-trial row">
+            <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+                <div class=" controls">
+                    <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+                </div>
+            </div>
+            <!-- End email input -->
+            <div class="form-group col-md-3 col-sm-4">
+                <div class=" controls">
+                    <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+                </div>
+            </div>
+            <!-- End email input -->
+            <div class="col-md-2 col-sm-4">
+                <p>
+                    <button name="submit" type="submit" class="btn btn-block btn-submit">
+                        Submit <i class="fa fa-arrow-right"></i></button>
+                </p>
+            </div>
+        </form>
+        <!-- End newsletter-form -->
+        <ul class="social-links">
+            <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+            <li><a href="#link"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        © Octagon Financial Services
+    </div>
+</footer>
+<!--/ Footer-->
+
+<script type="text/javascript">
+var clicks = 0;
+function onClick() {
+    clicks += 1;
+    if(clicks == 1){
+        var pageNum = document.getElementById("pageHeader").innerText = "Page 2";
+        var pageParagraph = document.getElementById("courseParagraph").innerText = "Credit cards create a barrier between merchants and your own money." +
+            " If nothing else, credit card companies are good at handling fraud, and they create a line of defense between fraudsters and your money. " +
+            "You should always check the rules when you open a credit card, but in almost all cases, you are not liable for any unauthorized use of your credit card account. " +
+            "And unlike a debit card, unauthorized use doesn’t affect your bank account, so you’ll still have your money if you happen to need it for something else on the same day someone uses your credit card account.";
+        var image = document.getElementById("courseImage").setAttribute("src","img/credit_course_02.jpg")
+    }
+    else if(clicks == 2){
+        var pageNum = document.getElementById("pageHeader").innerText = "Page 3";
+        var pageParagraph = document.getElementById("courseParagraph").innerText = "When you choose to pay with a credit card and you hand the card to a cashier or submit your card number over a s" +
+            "ecure internet connection, the merchant you’re dealing with validates your account and whether the bank will allow the purchase to go through. If everything looks good, " +
+            "your purchase is added to your credit account. Many companies are involved with each swipe of a credit card, and money exchanges hands between all these companies each time a " +
+            "card is used. Merchants pay fees to accept credit cards, and eventually the card-issuing banks receive part of this as revenue.";
+        var image = document.getElementById("courseImage").setAttribute("src","img/credit_course_03.jpg");
+    }
+    else {
+        var course = document.getElementById("course");
+        course.parentNode.removeChild(course);
+        var cta = document.getElementById("CTA").removeAttribute("style");
+    }
+}
+</script>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
