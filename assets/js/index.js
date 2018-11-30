@@ -1,0 +1,3 @@
+switchSignForm = () => {
+    console.log('wroks');
+}
